@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guía rápida · Referencias en APA 7ª edición</title>
+  <meta name="description" content="Estructura general y ejemplos de referencias en APA (7ª edición): libro, artículo de revista, página web, tesis y capítulo de libro." />
+  <style>
+    :root{
+      --ink:#0f172a; --muted:#475569; --ring:#e2e8f0;
+      --bg:#f8fafc; --card:#ffffff; --brand:#1d4ed8;
+      --brand2:#0ea5e9; --ok:#16a34a;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans';
+      color:var(--ink); background:var(--bg); line-height:1.55;
+    }
+    header.hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#fff; padding:36px 18px; position:relative
+    }
+    header.hero .wrap{max-width:1100px; margin:0 auto;}
+    header.hero h1{margin:0 0 10px 0; font-size:clamp(1.6rem,2.5vw,2.2rem);}
+    header.hero p{margin:0; opacity:.95}
+    .container{max-width:1100px; margin:20px auto; padding:0 14px 60px;}
+    .grid{display:grid; gap:18px; grid-template-columns:1fr;}
+    @media(min-width:980px){.grid{grid-template-columns:1.1fr .9fr;}}
+    .card{
+      background:var(--card); border:1px solid var(--ring);
+      border-radius:16px; box-shadow:0 8px 26px rgba(2,8,23,.06);
+      padding:18px 18px 14px; margin-bottom:20px;
+    }
+    .card h2,.card h3{margin:.2rem 0 .6rem 0}
+    .bullets{list-style:none; padding:0; margin:12px 0; display:grid; gap:10px;}
+    .bullets li{display:grid; grid-template-columns:22px 1fr; gap:10px; align-items:start;
+      border:1px dashed #e5e7eb; border-radius:12px; padding:10px 12px; background:#fff;}
+    .pill{display:inline-flex; gap:8px; align-items:center;
+      background:#f1f5f9; border:1px solid #e2e8f0;
+      font-size:.84rem; padding:5px 10px; border-radius:999px;}
+    .example{border:1px solid var(--ring); border-radius:14px; padding:12px; margin:10px 0; background:#f8fafc;}
+    .example blockquote{margin:0; padding:10px 12px; background:#fff; border:1px solid #e5e7eb; border-radius:10px}
+    .btns{display:flex; gap:10px; margin-top:10px;}
+    button.copy{appearance:none; border:1px solid #d1d5db; background:#fff; color:var(--ink);
+      padding:6px 10px; border-radius:8px; cursor:pointer;}
+    button.copy:hover{border-color:#9ca3af}
+    .ok{display:none; color:var(--ok); font-size:.9rem; margin-left:6px;}
+    .row{display:grid; gap:16px; grid-template-columns:1fr;}
+    @media(min-width:720px){.row{grid-template-columns:1fr 1fr;}}
+    details{border:1px solid var(--ring); border-radius:12px; padding:10px 12px; background:#fff; margin-bottom:10px;}
+    summary{cursor:pointer; font-weight:700;}
+    summary::-webkit-details-marker{display:none}
+    .note{font-size:.92rem; color:var(--muted); border-left:4px solid var(--brand);
+      background:#eef2ff; padding:12px 14px; border-radius:10px; margin-top:10px;}
+    footer.card{max-width:1100px; margin:0 auto 40px; padding:20px;}
+    footer ul{margin:10px 0 0; padding:0; list-style:none}
+    footer li{margin:6px 0}
+    footer a{color:var(--brand); text-decoration:none}
+    footer a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="hero" role="banner">
+    <div class="wrap">
+      <h1>Cómo crear referencias de investigación en APA 7</h1>
+      <p>Estructura general, ejemplos y reglas clave (7ª edición).</p>
+    </div>
+  </header>
+
+  <main class="container" role="main">
+    <div class="grid">
+
+      <!-- ESTRUCTURA GENERAL -->
+      <article class="card">
+        <h2>🔹 Estructura general del formato APA</h2>
+        <p class="pill">Las referencias siempre deben tener:</p>
+        <ul class="bullets">
+          <li><span>✅</span><div><strong>Autor(es)</strong> → Apellido, Inicial(es).</div></li>
+          <li><span>✅</span><div><strong>Año de publicación</strong> → entre paréntesis.</div></li>
+          <li><span>✅</span><div><strong>Título de la obra</strong> → en <em>cursivas</em> si es libro o artículo completo.</div></li>
+          <li><span>✅</span><div><strong>Fuente</strong> → editorial, revista, DOI o URL.</div></li>
+        </ul>
+        <p class="note">Esta guía está alineada con la <strong>7ª edición</strong> del Manual de Publicaciones de la APA.</p>
+      </article>
+
+      <!-- REGLAS CLAVE -->
+      <aside class="card">
+        <h2>🔹 Reglas clave APA</h2>
+        <ul class="bullets">
+          <li><span>📚</span><div>Ordenar referencias <strong>alfabéticamente por apellido</strong> del autor.</div></li>
+          <li><span>👥</span><div>Dos autores: <em>(García &amp; López, 2021)</em>. <br>Tres o más autores: <em>(Gómez et al., 2022)</em>.</div></li>
+          <li><span>🖋️</span><div>Títulos de <strong>libros y revistas</strong> en <em>cursiva</em>.</div></li>
+          <li><span>🔗</span><div>Si la fuente tiene <strong>DOI</strong>, inclúyelo; si no, coloca la <strong>URL</strong>.</div></li>
+          <li><span>🏷️</span><div>Si no hay autor, inicia con el <strong>título</strong>.</div></li>
+        </ul>
+      </aside>
+
+      <!-- EJEMPLOS -->
+      <section class="card" style="grid-column:1 / -1;">
+        <h2>🔹 Ejemplos de referencias en APA</h2>
+        <div class="row">
+
+          <!-- LIBRO -->
+          <div>
+            <h3>📚 Libro</h3>
+            <details>
+              <summary>Ver formato y ejemplo</summary>
+              <div class="example">
+                <div class="label">Formato</div>
+                <blockquote>Apellido, N. (Año). <em>Título del libro en cursivas</em>. Editorial.</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-libro-formato">Copiar formato</button><span class="ok"></span>
+                </div>
+              </div>
+              <div class="example">
+                <div class="label">Ejemplo</div>
+                <blockquote>Rodríguez, M. (2020). <em>Educación y aprendizaje en la era digital</em>. Fondo de Cultura Económica.</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-libro-ejemplo">Copiar ejemplo</button><span class="ok"></span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- ARTÍCULO -->
+          <div>
+            <h3>📄 Artículo de revista</h3>
+            <details>
+              <summary>Ver formato y ejemplo</summary>
+              <div class="example">
+                <div class="label">Formato</div>
+                <blockquote>Apellido, N. (Año). Título del artículo. <em>Título de la revista en cursivas, volumen</em>(número), páginas. https://doi.org/xxxxx</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-articulo-formato">Copiar formato</button><span class="ok"></span>
+                </div>
+              </div>
+              <div class="example">
+                <div class="label">Ejemplo</div>
+                <blockquote>García, J., &amp; López, A. (2021). Estrategias de aprendizaje en entornos virtuales. <em>Revista de Tecnología Educativa, 15</em>(2), 45-60. https://doi.org/10.1234/rte.v15i2.234</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-articulo-ejemplo">Copiar ejemplo</button><span class="ok"></span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- WEB -->
+          <div>
+            <h3>🌐 Página web</h3>
+            <details>
+              <summary>Ver formato y ejemplo</summary>
+              <div class="example">
+                <div class="label">Formato</div>
+                <blockquote>Apellido, N. (Año, día mes). Título de la página. <em>Nombre del sitio</em>. URL</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-web-formato">Copiar formato</button><span class="ok"></span>
+                </div>
+              </div>
+              <div class="example">
+                <div class="label">Ejemplo</div>
+                <blockquote>UNESCO. (2022, 10 de marzo). Educación en línea y su impacto. <em>UNESCO</em>. https://www.unesco.org/educacion-en-linea</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-web-ejemplo">Copiar ejemplo</button><span class="ok"></span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- TESIS -->
+          <div>
+            <h3>📑 Tesis</h3>
+            <details>
+              <summary>Ver formato y ejemplo</summary>
+              <div class="example">
+                <div class="label">Formato</div>
+                <blockquote>Apellido, N. (Año). <em>Título de la tesis en cursivas</em> (Tesis de licenciatura/maestría/doctorado). Institución. Repositorio o URL.</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-tesis-formato">Copiar formato</button><span class="ok"></span>
+                </div>
+              </div>
+              <div class="example">
+                <div class="label">Ejemplo</div>
+                <blockquote>Pérez, L. (2019). <em>El impacto del aprendizaje móvil en la educación primaria</em> (Tesis de maestría). Universidad Nacional Autónoma de México. http://repositorio.unam.mx/tesis123</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-tesis-ejemplo">Copiar ejemplo</button><span class="ok"></span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+          <!-- CAPÍTULO -->
+          <div>
+            <h3>📘 Capítulo de libro</h3>
+            <details>
+              <summary>Ver formato y ejemplo</summary>
+              <div class="example">
+                <div class="label">Formato</div>
+                <blockquote>Apellido, N. (Año). Título del capítulo. En N. Apellido (Ed.), <em>Título del libro</em> (pp. xx–xx). Editorial.</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-capitulo-formato">Copiar formato</button><span class="ok"></span>
+                </div>
+              </div>
+              <div class="example">
+                <div class="label">Ejemplo</div>
+                <blockquote>Hernández, P. (2020). La educación virtual en Latinoamérica. En R. Torres (Ed.), <em>Tendencias de la educación digital</em> (pp. 55–72). Editorial Trillas.</blockquote>
+                <div class="btns">
+                  <button class="copy" data-target="temp-capitulo-ejemplo">Copiar ejemplo</button><span class="ok"></span>
+                </div>
+              </div>
+            </details>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- FUENTES EXTRA -->
+  <footer class="card">
+    <h2>🔗 Fuentes extra</h2>
+    <p>Consulta más detalles en los siguientes recursos:</p>
+    <ul>
+      <li><a href="https://normas-apa.org/" target="_blank" rel="noopener">https://normas-apa.org/</a></li>
+      <li><a href="https://www.lasallep.edu.mx/ulsap/Repositorio/guiaAPA/Gu%C3%ADa_Normas_APA_7.pdf" target="_blank" rel="noopener">Guía Normas APA 7 (PDF · La Salle)</a></li>
+    </ul>
+  </footer>
+
+  <!-- Templates para copiar -->
+  <template id="temp-libro-formato">Apellido, N. (Año). Título del libro en cursivas. Editorial.</template>
+  <template id="temp-libro-ejemplo">Rodríguez, M. (2020). Educación y aprendizaje en la era digital. Fondo de Cultura Económica.</template>
+  <template id="temp-articulo-formato">Apellido, N. (Año). Título del artículo. Título de la revista en cursivas, volumen(número), páginas. https://doi.org/xxxxx</template>
+  <template id="temp-articulo-ejemplo">García, J., & López, A. (2021). Estrategias de aprendizaje en entornos virtuales. Revista de Tecnología Educativa, 15(2), 45-60. https://doi.org/10.1234/rte.v15i2.234</template>
+  <template id="temp-web-formato">Apellido, N. (Año, día mes). Título de la página. Nombre del sitio. URL</template>
+  <template id="temp-web-ejemplo">UNESCO. (2022, 10 de marzo). Educación en línea y su impacto. UNESCO. https://www.unesco.org/educacion-en-linea</template>
+  <template id="temp-tesis-formato">Apellido, N. (Año). Título de la tesis en cursivas (Tesis de licenciatura/maestría/doctorado). Institución. Repositorio o URL.</template>
+  <template id="temp-tesis-ejemplo">Pérez, L. (2019). El impacto del aprendizaje móvil en la educación primaria (Tesis de maestría). Universidad Nacional Autónoma de México. http://repositorio.unam.mx/tesis123</template>
+  <template id="temp-capitulo-formato">Apellido, N. (Año). Título del capítulo. En N. Apellido (Ed.), Título del libro (pp. xx–xx). Editorial.</template>
+  <template id="temp-capitulo-ejemplo">Hernández, P. (2020). La educación virtual en Latinoamérica. En R. Torres (Ed.), Tendencias de la educación digital (pp. 55–72). Editorial Trillas.</template>
+
+  <script>
+    (function(){
+      const buttons=document.querySelectorAll("button.copy");
+      async function copyFromTemplate(id, okEl){
+        const tpl=document.getElementById(id);
+        if(!tpl) return;
+        const text=tpl.textContent.trim();
+        try{
+          await navigator.clipboard.writeText(text);
+          okEl.textContent="¡Copiado!";
+          okEl.style.display="inline";
+          setTimeout(()=>{okEl.style.display="none"},2000);
+        }catch(e){
+          okEl.textContent="No se pudo copiar";
+          okEl.style.display="inline";
+          setTimeout(()=>{okEl.style.display="none"},2000);
+        }
+      }
+      buttons.forEach(btn=>{
+        btn.addEventListener("click",()=>{
+          const id=btn.getAttribute("data-target");
+          const ok=btn.parentElement.querySelector(".ok");
+          copyFromTemplate(id,ok);
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
